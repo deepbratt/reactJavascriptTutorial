@@ -1,4 +1,4 @@
-import { areaCircle } from "../Utility/general";
+import {areaCircle} from '../Utility/general'
 const AreaOfCircle = () => {
   const radius = 7;
   const area = areaCircle(radius);

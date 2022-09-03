@@ -1,8 +1,6 @@
 import AreaDynamic from "./Component/AreaDynamic";
-import {
-  default as AreaOfCircle,
-  default as AreaOfReactangle,
-} from "./Component/AreaOfCircle";
+import AreaOfCircle from "./Component/AreaOfCircle";
+import AreaOfReactangle from "./Component/AreaOfReactangle";
 function App() {
   return (
     <div className="App">
