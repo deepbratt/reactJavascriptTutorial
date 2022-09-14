@@ -3,23 +3,22 @@ import "./app.css";
 import AreaDynamic from "./Component/AreaDynamic";
 import AreaOfCircle from "./Component/AreaOfCircle";
 import AreaOfReactangle from "./Component/AreaOfReactangle";
+import Deep from "./Component/Deep";
 import Grid from "./Component/Grid";
 import Header from "./Component/Header";
 function App() {
+  // let person = {
+  //   firstName: "John",
+  //   lastName: "Doe",
+  //   age: 50,
+  //   eyeColor: "blue",
+  // };
+  // addTwoNumber(person);
   return (
     <div className="amarContainer">
       <Header />
       <Container>
-        {/* <Row>
-          <Col></Col>
-          <Col>2 of 2</Col>
-        </Row>
-
-        <Row>
-          <Col>1 of 3</Col>
-          <Col>2 of 3</Col>
-          <Col>3 of 3</Col>
-        </Row> */}
+        <Deep firstName="John" lastName="Doe" age={50} eyeColor="blue" />
         <Grid />
         <AreaOfReactangle />
         <AreaDynamic />
@@ -29,3 +28,8 @@ function App() {
   );
 }
 export default App;
+
+// function addTwoNumber(props) {
+//   console.log(props);
+//   return false;
+// }
